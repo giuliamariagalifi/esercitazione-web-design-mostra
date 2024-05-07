@@ -1,0 +1,395 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+    
+  
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+header {
+display: flex;
+justify-content: space-between;
+padding: 16px;
+background-color: black;
+height: 60px;
+}
+header nav ul {
+ list-style: none;
+ display: flex;
+ gap: 24px;
+ padding-top: 0%;
+ 
+}
+header a{
+    color: antiquewhite;
+    text-decoration: none;
+   
+
+} 
+header a:hover{
+ color: #fff;
+ text-decoration: underline;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.contenitore {
+	max-width: 1440px; 
+	margin: 0 auto; 
+}
+
+.info {
+    position: relative;
+}
+.testo {
+    
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    color:#fff;
+     width: 100%;
+    height: 48.4%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+
+.image img {
+    height: 750px;
+    width: 150%;
+    object-fit: cover;
+}
+
+
+.mostra {
+background-color: rgb(25, 2, 55);
+color: #fff;
+padding: 30px;
+min-height: 1px;
+text-align:center;
+vertical-align: top;
+font-size: 40px;
+font-weight: normal;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: indigo;
+    max-height: 100%;
+    gap: 30px;
+    text-align: left;
+}
+.container {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 120px;
+}
+.container .text{
+    width: 100%;
+}
+.container .text p { 
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+   .container .text h2 {
+    font-size: 26px;
+    margin: 20px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+ }
+ .selezione{
+    max-width: 1440px; 
+	margin: 0 auto; 
+ }
+ .testo1 {
+background-color: rgb(0, 0, 0);
+color: #fff;
+padding: 30px;
+min-height: 1px;
+text-align:center;
+vertical-align: top;
+font-size: 40px;
+font-weight: normal;
+}
+.text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: rgb(14, 0, 36);
+    max-height: 100%;
+    gap: 30px;
+    text-align: left;
+}
+.container2 {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 120px;
+}
+.container2 .text2{
+    width: 100%;
+}
+.container2 .text2 p { 
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    margin: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-seri
+}
+.container3 {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    background-color: blueviolet;
+}
+.container3 .text3 {
+    max-width: 1440px;
+
+}
+.text3{
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+.container3 .image3 {
+    width: 100%;
+    
+}
+.containe3r .text3 p {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.container3 .text3 .image3 {
+    max-width: 1440px;
+}
+.informazione {
+    background-color: rgb(25, 2, 55);
+    color: #fff;
+    padding: 30px;
+    min-height: 1px;
+    text-align:center;
+    vertical-align: top;
+    font-size: 40px;
+    font-weight: normal;
+ }
+ .informations {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    padding: 50px;
+    background-color: blueviolet;
+}
+.informations .texti {
+    max-width: 1440px;
+
+}
+.texti{
+    color: #fff;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.informations .image4 {
+    width: 100%;
+    padding-top: 100px;
+    
+}
+ 
+.informations .texti p {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.informations .texti .image4 {
+    max-width: 1440px;
+}
+.cards {
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: calc(30% - 20px); 
+    margin-bottom: 20px;
+    margin-right: 20px; 
+    background-color: #070012;
+    box-sizing: border-box; 
+}
+
+.card:nth-child(3n) {
+    margin-right: 0; 
+}
+.card__image {
+    width: 100%;
+    height: auto; 
+}
+
+.card__copy {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 40px;
+}
+.illustratore1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 30px;
+}
+
+.right img {
+    max-width: 100%;
+    height: 500px;
+    margin-left: 50px; 
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    padding-left: 20px; 
+}
+
+.left h2 {
+    padding-bottom: 0; 
+    padding-top: 200px;
+    margin-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.right img {
+    max-width: 100%;
+    height: 400px;
+    margin-bottom: 20px; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+    padding-top: 100px;
+}
+
+.grid img {
+    max-width: 100%;
+    height: auto;
+}
+
+.leftbottom {
+    padding-top: 300px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.leftbottom p {
+    margin: 0; 
+}
+footer {
+    background-color: #000000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-left p {
+    margin: 0;
+    color: #fff;
+}
+
+.footer-right ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: beige;
+}
+
+.footer-right ul li {
+    display: inline;
+   
+}
+
+.footer-right ul li:not(:last-child) {
+    margin-right: 15px;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-right ul li a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Stili per il contenuto della modal */
+.modal1-content {
+    margin: auto;
+    display: block;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/* Stili per il pulsante di chiusura */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+}
+  
